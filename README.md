@@ -1,5 +1,5 @@
 # switch-thinkpad-prtsc-key
-Simple script for change Lenovo Thinpad laptops Print Screen key into Alt Gr key (for init.d debian distros)
+Simple script for change Lenovo Thinpad laptops Print Screen key into Alt Gr key (for debian distros)
 
 ## Install and Uninstall
 To install simply make the install.sh executable with chmod +x install.sh and run the script and the same goes for the uninstall script.
