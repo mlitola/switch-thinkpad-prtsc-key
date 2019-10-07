@@ -29,9 +29,5 @@ chmod +x $INSTALL_DIR_ROOT/turn_prsc_back_to_original.sh
 # execute key swap script
 sh $INSTALL_DIR_ROOT/turn_prsc_into_altgr.sh
 
-# suggest changes as startup
 echo "Prints Screen key is now swapped into Alt Gr key"
-echo "\nIf you want to  use this every startup, copy the script into init.d using sudo:\n"
-echo "sudo cp $INSTALL_DIR_ROOT/turn_prsc_into_altgr.sh /etc/init.d/.\n"
-echo "\nand add it to runlevels:\n"
-echo "sudo update-rc.d turn_prsc_into_altgr.sh defaults\n"
+

@@ -21,9 +21,4 @@ rmdir $INSTALL_DIR_KEYMAP
 rmdir $INSTALL_DIR_SYMBOLS
 rmdir $INSTALL_DIR_ROOT
 
-# suggest changes as startup
 echo "Software uninstalled and Print Screen key returned into normal state"
-echo "\nIf you did copied script to run on startup, you need to removed it with sudo:\n"
-echo "sudo rm -f /etc/init.d/turn_prsc_into_altgr.sh\n"
-echo "\nand remove it from runlevels:\n"
-echo "sudo update-rc.d -f turn_prsc_into_altgr.sh remove\n"
